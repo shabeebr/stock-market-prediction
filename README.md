@@ -26,10 +26,14 @@ This project implements a simple stock market prediction model using **Linear Re
    Download the dataset from Kaggle (`engrhaseebjan/a-simple-stock-market-prediction-dataset`) and place it in the appropriate directory.  
    Alternatively, use the KaggleHub tool as shown in the notebook/script to download it programmatically.
 
-2. **Train the Model (Optional)**  
+2. **Run the Notebook Online**  
+   You can directly open and run the Jupyter Notebook online on Google Colab here:  
+   [Stock Market Prediction on Colab](https://colab.research.google.com/drive/15IFE_ch2FGRtwfuGUQMG3EhwbKEd3QDa?usp=sharing)
+
+3. **Train the Model (Optional)**  
    Run the notebook or the script to train the Linear Regression model on the historical stock data.
 
-3. **Make Predictions**  
+4. **Make Predictions**  
    Load the saved model `linear_regression_stock_model.pkl` to predict stock prices on new data.
 
 ---
@@ -47,4 +51,3 @@ Install the dependencies with:
 
 ```bash
 pip install pandas numpy matplotlib scikit-learn kagglehub
-
